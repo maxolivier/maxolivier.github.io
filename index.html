@@ -28,7 +28,24 @@
     position: sticky;
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: cornsilk;
+  }
+  .fixed_header_logo {
+    background-color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .fixed_header_messi {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .fixed_header_text {
+    color: black;
+    font: normal 28px "Palatino Linotype", sans-serif; 
   }
  
 
@@ -55,13 +72,19 @@
   
 <body style="background-color:cornsilk;">
   <div class="fixed_header_container">
-    <a id="fixed_header_element_logo" href="https://github.com/maxolivier/maxolivier.github.io"> 
-      <img src="favicon_v1b.png">
-    </a>
-    <a href="https://bbc.co.uk/sport/0/">
-      <img src="messi.jpg">
-    </a>
-    <h1> WEBSITE NAME </h1>
+    <div class="fixed_header_element_logo">
+      <a href="https://github.com/maxolivier/maxolivier.github.io"> 
+        <img src="favicon_v1b.png">
+      </a>
+    </div>
+    <div class="fixed_header_element_messi">
+      <a href="https://bbc.co.uk/sport/0/">
+        <img src="messi.jpg">
+      </a>
+    </div>
+    <div class="fixed_header_text">
+      <header> WEBSITE NAME </header>
+    </div>
 
   </div>
 
