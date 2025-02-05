@@ -24,18 +24,13 @@
     color: rgb(0,204,255);
     font: italic;
   }
-  .fixed_header {
+  .fixed_header.container {
     position: sticky;
-    align-content: center;
-    padding: 10px;
-    border-radius: 10px;
-    float: left;
-    font: normal 30px "Palatino Linotype", sans-serif; 
+    width: 100%;
+    display: flex;
     background-color: cornsilk;
   }
-  #fixed_header_element_logo.fixed_header {
-      background: black;
-  }
+ 
 
 </style>
 <head>
@@ -59,7 +54,7 @@
 
   
 <body style="background-color:cornsilk;">
-  <div class="fixed_header">
+  <div class="fixed_header_container">
     <a id="fixed_header_element_logo" href="https://github.com/maxolivier/maxolivier.github.io"> 
       <img src="favicon_v1b.png">
     </a>
